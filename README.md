@@ -17,11 +17,14 @@ ___
 ## Command line application
 The deep neural network model built and trained on Jupyter Notebook was converted into an application that others can 
 use. The application is a pair of Python scripts that run from the command line.
-
-* `train.py` should be used to train the model. Run `python train.py -h` to see instructions about how to use it.
+* `train.py` should be used to train the model. Run `python train.py -h` to see instructions about how to use it.<br>
 * `predict.py` should be used to make predictions, after you have trained your model. Run `python predict.py -h` to see
-instructions about how to use it.
-* `test_unit.ipynb` contains some tests which were performed to test `train.py` and `predict.py` files.
+instructions about how to use it.<br>
+* `test_unit.ipynb` contains some tests performed on `train.py` and `predict.py` files.<br>
+___
+## Limitations
+Only `vgg16` and `densenet` models are available. There is a lot of room to improve the application by implementing 
+other models which are available here: https://pytorch.org/docs/stable/torchvision/models.html.
 
 
 
