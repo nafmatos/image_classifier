@@ -1,5 +1,5 @@
 # Image Classifer with Deep Learning
-This project is part of Udacity Machine Learning Nanodegree Program (ND229).
+This project is part of Udacity Machine Learning Introduction Nanodegree Program (ND229).
 
 A Python image classifer application was built to recognize different species of flowers. 
 It can be trained on a dataset, then predict new images using the trained model.
